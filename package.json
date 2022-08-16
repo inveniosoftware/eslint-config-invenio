@@ -18,15 +18,16 @@
     "url": "https://github.com/inveniosoftware/eslint-config-invenio/issues"
   },
   "homepage": "https://github.com/inveniosoftware/eslint-config-invenio#readme",
-  "dependencies": {
+  "devDependencies": {
     "js-yaml": "^3.13.0",
-    "eslint": "^6.6.0",
-    "eslint-config-prettier": "^7.0.0",
-    "eslint-loader": "2.1.0",
-    "eslint-plugin-import": "^2.25.0",
-    "eslint-plugin-prettier": "^3.3.0",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.26.0",
-    "babel-eslint": "^10.0.0",
-    "prettier": "^2.0.0"
+    "prettier": "^2.7.1",
+    "@babel/core": "^7.18.6",
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/preset-react": "^7.18.6"
   }
 }
