@@ -18,7 +18,7 @@
     "url": "https://github.com/inveniosoftware/eslint-config-invenio/issues"
   },
   "homepage": "https://github.com/inveniosoftware/eslint-config-invenio#readme",
-  "devDependencies": {
+  "dependencies": {
     "js-yaml": "^3.13.0",
     "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
