@@ -18,16 +18,25 @@
     "url": "https://github.com/inveniosoftware/eslint-config-invenio/issues"
   },
   "homepage": "https://github.com/inveniosoftware/eslint-config-invenio#readme",
+  "eslintIgnore": ["build/*.js"],
   "dependencies": {
-    "js-yaml": "^3.13.0",
-    "eslint": "^8.19.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.26.0",
-    "prettier": "^2.7.1",
     "@babel/core": "^7.18.6",
     "@babel/eslint-parser": "^7.18.2",
-    "@babel/preset-react": "^7.18.6"
+    "@babel/preset-react": "^7.18.6",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-friendly-formatter": "^4.0.0",
+    "eslint-plugin-flowtype": "^8.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react-app": "^6.0.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "js-yaml": "^3.13.0",
+    "prettier": "^2.7.1",
   }
 }
