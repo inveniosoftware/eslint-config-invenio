@@ -32,14 +32,11 @@ extends:
   - '@inveniosoftware/invenio'
   - '@inveniosoftware/invenio/prettier'
 
-env:
-  browser: true
-  es6: true
-  jest: true
+parser: '@babel/eslint-parser'
 ```
 
 ## Example `.prettierrc`
 
 ```
-"@inveniosoftware/eslint-config-invenio/prettier-config.js"
+"@inveniosoftware/eslint-config-invenio/prettier-config"
 ```
