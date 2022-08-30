@@ -1,6 +1,6 @@
 {
   "name": "@inveniosoftware/eslint-config-invenio",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "ESLint config/preset used by the Invenio team",
   "main": "index.js",
   "repository": {
