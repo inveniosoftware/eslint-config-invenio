@@ -1,6 +1,6 @@
 {
   "name": "@inveniosoftware/eslint-config-invenio",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ESLint config/preset used by the Invenio team",
   "main": "index.js",
   "repository": {
@@ -18,7 +18,9 @@
     "url": "https://github.com/inveniosoftware/eslint-config-invenio/issues"
   },
   "homepage": "https://github.com/inveniosoftware/eslint-config-invenio#readme",
-  "eslintIgnore": ["build/*.js"],
+  "eslintIgnore": [
+    "build/*.js"
+  ],
   "dependencies": {
     "@babel/core": "^7.18.6",
     "@babel/eslint-parser": "^7.18.2",
@@ -33,10 +35,11 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.1",
     "eslint-plugin-react": "^7.26.0",
-    "eslint-plugin-react-app": "^6.0.0"
+    "eslint-plugin-react-app": "^6.0.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-webpack-plugin": "^3.2.0",
     "js-yaml": "^3.13.0",
-    "prettier": "^2.7.1",
+    "prettier": "^2.7.1"
   }
 }
+
