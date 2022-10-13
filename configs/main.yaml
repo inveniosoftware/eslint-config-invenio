@@ -1,6 +1,5 @@
 extends:
   - 'eslint:recommended'
-  - 'react'
   - 'plugin:jsx-a11y/recommended'
   - 'plugin:react/recommended'
   - 'plugin:prettier/recommended'
