@@ -24,7 +24,7 @@ env:
 
 settings:
   react:
-    version: latest
+    version: detect
 
 rules:
   camelcase:
