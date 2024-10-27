@@ -15,10 +15,12 @@ npm install --save-dev eslint-plugin-babel babel-eslint
 ## Presets
 
 ### invenio
+
 The base config. You always want this when using this package.
 Requires `eslint-plugin-import`
 
 ### invenio/prettier
+
 Enables prettier integration.
 Requires `prettier`, `eslint-config-prettier` and `eslint-plugin-prettier`
 Make sure to load this after all other `invenio/*` presets.
@@ -37,6 +39,31 @@ parser: '@babel/eslint-parser'
 
 ## Example `.prettierrc`
 
-```
+```toml
 "@inveniosoftware/eslint-config-invenio/prettier-config"
 ```
+
+## Development
+
+1. Clone the repository:
+
+    ```shell
+    git clone https://github.com/inveniosoftware/eslint-config-invenio.git
+    cd eslint-config-invenio
+    npm install
+    ```
+
+2. In the consuming package, link the package:
+
+    ```shell
+    ./run-js-linter.sh -i
+    npx link ~/path/to/eslint-config-invenio
+    ./run-js-linter.sh
+    ```
+
+3. to unlink the package:
+
+    ```shell
+    ./run-js-linter.sh -i
+    ./run-js-linter.sh
+    ```
