@@ -1,6 +1,6 @@
 {
   "name": "@inveniosoftware/eslint-config-invenio",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "ESLint config/preset used by the Invenio team",
   "main": "index.js",
   "repository": {
@@ -30,6 +30,7 @@
     "eslint-config-react-app": "^7.0.1",
     "eslint-friendly-formatter": "^4.0.0",
     "eslint-plugin-flowtype": "^8.0.0",
+    "eslint-plugin-i18next": "^6.1.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.0",
     "eslint-plugin-node": "^11.1.0",

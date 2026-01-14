@@ -4,6 +4,7 @@ extends:
   - 'plugin:jsx-a11y/recommended'
   - 'plugin:react/recommended'
   - 'plugin:prettier/recommended'
+  - 'plugin:i18next/recommended'
 
 parser: '@babel/eslint-parser'
 
